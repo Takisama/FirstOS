@@ -1,4 +1,3 @@
-OBJS := init.o
-DIRS := syscall driver time mm lock pc fs
+OBJS := vm.o tlb.o
 
 include $(SUB_MAKE_INCLUDE)
